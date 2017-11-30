@@ -71,7 +71,12 @@ enum ofTargetPlatform{
 #define GLM_FORCE_SWIZZLE
 #define GLM_FORCE_SIZE_FUNC
 #include "glm/glm.hpp"
-#include "glm/ext.hpp"
+#include "glm/gtc/type_ptr.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/quaternion.hpp"
+#include "glm/gtx/quaternion.hpp"
+#include "glm/gtx/matrix_transform_2d.hpp"
+#include "glm/gtx/vector_angle.hpp"
 
 #ifndef OF_TARGET_IPHONE
     #define OF_TARGET_IPHONE OF_TARGET_IOS
